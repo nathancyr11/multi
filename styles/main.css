@@ -44,6 +44,7 @@ body{
     margin: 2.5em 0 0 3em;
     position: sticky;
     top: 125px;
+    display: none;
 }
 #nav_list ul{
     list-style: none;
@@ -71,9 +72,15 @@ body{
     margin-right: 0;
 }
 section{
-    width: 75%;
+    width: 100%;
     float: left;
     margin: 30px auto;
+}
+section h1{
+    width: 100%;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
 }
 article{
     width: 75%;
